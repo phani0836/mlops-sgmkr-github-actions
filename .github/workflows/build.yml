@@ -7,8 +7,8 @@ on:
     paths:
       - pipelines/**
 env:
-  AWS_REGION: us-east-2
-  SAGEMAKER_PROJECT_NAME: sagemaker-github
+  AWS_REGION: us-east-1
+  SAGEMAKER_PROJECT_NAME: build-deploy-mlops-v5
 
 jobs:
   Build:
